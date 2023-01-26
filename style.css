@@ -1,0 +1,33 @@
+/* font-family: 'Lobster', cursive; */ 
+body{
+    background-color: gray;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+li:last-child{
+    color: red;
+    background-color: yellow;
+}
+
+/* Værste metode for at få tingene til at stå ved siden af hinanden. Fordi nu er de inline elementer og så er det svært at lægger li'er i coloner. */
+footer ul{
+    display: inline;
+    background-color: green;
+}
+footer ul li{
+    display: inline;
+}
+
+/* Lav afstand imellem flere elementer. */
+nav ul{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+p{
+    line-height: 70px;
+}
+
+/* Ændr farven på en stykke tekst. */
+h2{
+    color: bisque;
+}
